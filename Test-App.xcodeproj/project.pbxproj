@@ -6,14 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		AD7CC1202DAC93D300148542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7CC0F22DAC909600148542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7CC0F92DAC909600148542;
+			remoteInfo = "Test-App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		AD7CC0FA2DAC909600148542 /* Test-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7CC11C2DAC93D300148542 /* Test-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7CC1252DAC946000148542 /* Test-App.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Test-App.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AD7CC0FC2DAC909600148542 /* Test-App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Test-App";
+			sourceTree = "<group>";
+		};
+		AD7CC11D2DAC93D300148542 /* Test-AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Test-AppTests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +43,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD7CC1192DAC93D300148542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		AD7CC0F12DAC909600148542 = {
 			isa = PBXGroup;
 			children = (
+				AD7CC1252DAC946000148542 /* Test-App.xctestplan */,
 				AD7CC0FC2DAC909600148542 /* Test-App */,
+				AD7CC11D2DAC93D300148542 /* Test-AppTests */,
 				AD7CC0FB2DAC909600148542 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				AD7CC0FA2DAC909600148542 /* Test-App.app */,
+				AD7CC11C2DAC93D300148542 /* Test-AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +97,29 @@
 			productReference = AD7CC0FA2DAC909600148542 /* Test-App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AD7CC11B2DAC93D300148542 /* Test-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7CC1222DAC93D300148542 /* Build configuration list for PBXNativeTarget "Test-AppTests" */;
+			buildPhases = (
+				AD7CC1182DAC93D300148542 /* Sources */,
+				AD7CC1192DAC93D300148542 /* Frameworks */,
+				AD7CC11A2DAC93D300148542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7CC1212DAC93D300148542 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD7CC11D2DAC93D300148542 /* Test-AppTests */,
+			);
+			name = "Test-AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Test-AppTests";
+			productReference = AD7CC11C2DAC93D300148542 /* Test-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +132,10 @@
 				TargetAttributes = {
 					AD7CC0F92DAC909600148542 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					AD7CC11B2DAC93D300148542 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AD7CC0F92DAC909600148542;
 					};
 				};
 			};
@@ -100,12 +154,20 @@
 			projectRoot = "";
 			targets = (
 				AD7CC0F92DAC909600148542 /* Test-App */,
+				AD7CC11B2DAC93D300148542 /* Test-AppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AD7CC0F82DAC909600148542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7CC11A2DAC93D300148542 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +184,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD7CC1182DAC93D300148542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD7CC1212DAC93D300148542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7CC0F92DAC909600148542 /* Test-App */;
+			targetProxy = AD7CC1202DAC93D300148542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AD7CC1062DAC909700148542 /* Debug */ = {
@@ -300,6 +377,40 @@
 			};
 			name = Release;
 		};
+		AD7CC1232DAC93D300148542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test-App";
+			};
+			name = Debug;
+		};
+		AD7CC1242DAC93D300148542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test-App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +428,15 @@
 			buildConfigurations = (
 				AD7CC1092DAC909700148542 /* Debug */,
 				AD7CC10A2DAC909700148542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7CC1222DAC93D300148542 /* Build configuration list for PBXNativeTarget "Test-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7CC1232DAC93D300148542 /* Debug */,
+				AD7CC1242DAC93D300148542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
