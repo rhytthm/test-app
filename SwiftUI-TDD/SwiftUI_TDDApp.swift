@@ -28,9 +28,9 @@ struct Main {
     static func main() {
         if NSClassFromString("XCTestCase") != nil {
             Test_App.main()
-        } else {
-            Real_App.main()
+            return
         }
+        Real_App.main()
     }
 }
 
