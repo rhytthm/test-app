@@ -18,7 +18,7 @@ struct Real_App: App {
 struct Test_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Text("Hello, Tests!")
         }
     }
 }
