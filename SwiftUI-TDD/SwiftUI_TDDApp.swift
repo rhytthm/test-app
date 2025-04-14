@@ -1,6 +1,6 @@
 //
-//  Test_AppApp.swift
-//  Test-App
+//  SwiftUI_TDDApp.swift
+//  SwiftUI-TDD
 //
 //  Created by RAJEEV MAHAJAN on 14/04/25.
 //
