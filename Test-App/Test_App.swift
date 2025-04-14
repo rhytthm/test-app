@@ -24,7 +24,7 @@ struct Test_App: App {
 }
 
 @main
-struct TestDriver {
+struct Main {
     static func main() {
         if NSClassFromString("XCTestCase") != nil {
             Test_App.main()
