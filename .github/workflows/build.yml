@@ -31,5 +31,4 @@ jobs:
       run: xcodebuild -version
 
     - name: Run tests
-      working-directory: SwiftUI-TDD
       run: ./run_tests.sh
