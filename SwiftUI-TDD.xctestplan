@@ -17,7 +17,7 @@
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
+      "parallelizable" : false,
       "target" : {
         "containerPath" : "container:SwiftUI-TDD.xcodeproj",
         "identifier" : "AD62C7452DACC5F100A265DF",
