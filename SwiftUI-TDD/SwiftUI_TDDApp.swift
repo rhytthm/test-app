@@ -26,11 +26,16 @@ struct Test_App: App {
 @main
 struct Main {
     static func main() {
-        if NSClassFromString("XCTestCase") != nil {
+        guard isProduction() else {
             Test_App.main()
             return
         }
         Real_App.main()
     }
+    
+    fileprivate static func isProduction() -> Bool {
+        return NSClassFromString("XCTestCase") != nil
+    }
+    
 }
 
