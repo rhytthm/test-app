@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AD12EC042DADE60C00BC3490 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = AD12EC032DADE60C00BC3490 /* ViewInspector */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		AD62C74A2DACC5F100A265DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -44,7 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD12EC042DADE60C00BC3490 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +92,6 @@
 			);
 			name = "SwiftUI-TDD";
 			packageProductDependencies = (
-				AD12EC032DADE60C00BC3490 /* ViewInspector */,
 			);
 			productName = "SwiftUI-TDD";
 			productReference = AD62C7312DACC5BD00A265DF /* SwiftUI-TDD.app */;
@@ -156,7 +150,7 @@
 			mainGroup = AD62C7282DACC5BD00A265DF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				AD12EC022DADE60C00BC3490 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+				AD12EC052DADE6FD00BC3490 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AD62C7322DACC5BD00A265DF /* Products */;
@@ -461,7 +455,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AD12EC022DADE60C00BC3490 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+		AD12EC052DADE6FD00BC3490 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nalexn/ViewInspector.git";
 			requirement = {
@@ -470,14 +464,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		AD12EC032DADE60C00BC3490 /* ViewInspector */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AD12EC022DADE60C00BC3490 /* XCRemoteSwiftPackageReference "ViewInspector" */;
-			productName = ViewInspector;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD62C7292DACC5BD00A265DF /* Project object */;
 }
